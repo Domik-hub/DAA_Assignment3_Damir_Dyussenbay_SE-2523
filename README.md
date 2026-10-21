@@ -42,6 +42,3 @@ java -cp target/assignment3-graphs-1.0.jar benchmark.Demo data/dag-negative.txt
 
 The project contains local Git history with the required feature branches, `main`, and tag `v1.0`. GitHub repository link: not added yet. Publish the repository and add the actual link before uploading the ZIP to Moodle.
 
-## AI use
-
-OpenAI Codex helped with the code, tests, measurements and report. The tests and benchmark were run on this project.
