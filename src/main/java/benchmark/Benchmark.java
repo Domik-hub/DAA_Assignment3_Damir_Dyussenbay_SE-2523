@@ -16,7 +16,6 @@ public class Benchmark {
         {15012094, 3923, 40096539}, {3056681, 1, 23512087}
     };
 
-    // Each row stores the counters from one run and the median time of five runs.
     private static void addRow(StringBuilder csv, String name, String kind,
                                Graph graph, long[] times, Metrics metrics, long result) {
         Arrays.sort(times);

@@ -17,7 +17,7 @@ public final class Kahn {
             int u = ready.remove(); order[count++] = u;
             for (Edge e : g.neighbors(u)) { metrics.edgeScans++; if (--indegree[e.to()] == 0) ready.add(e.to()); }
         }
-        // On a cycle, do not expose a partial sequence as a topological order.
+
         return new Result(count == g.n() ? order : new int[0], count != g.n(), metrics);
     }
     public static boolean validOrder(Graph g, int[] order) {

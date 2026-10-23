@@ -2,7 +2,6 @@ package algorithms;
 
 import metrics.Metrics;
 
-/** Union by size plus iterative full path compression. */
 public final class DSU {
     private final int[] parent, size;
     private int components;

@@ -21,7 +21,7 @@ public final class Kruskal {
         }
         return new MstResult(weight, chosen, dsu.components(), metrics);
     }
-    // Own stable bottom-up merge sort makes weight comparisons reproducible.
+    
     private static void mergeSort(Edge[] a, Metrics metrics) {
         Edge[] temp = new Edge[a.length];
         for (long width = 1; width < a.length; width *= 2) {

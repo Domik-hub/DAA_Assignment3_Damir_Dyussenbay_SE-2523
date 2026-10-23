@@ -4,7 +4,6 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.*;
 
-/** One adjacency-list representation for directed and undirected multigraphs. */
 public final class Graph {
     private final int n;
     private final boolean directed;
